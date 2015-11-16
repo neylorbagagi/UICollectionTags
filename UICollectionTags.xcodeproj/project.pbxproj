@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		F0C7C6BE1BFA1EBE009B582E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6BD1BFA1EBE009B582E /* main.m */; };
 		F0C7C6C11BFA1EBE009B582E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6C01BFA1EBE009B582E /* AppDelegate.m */; };
-		F0C7C6C41BFA1EBE009B582E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6C31BFA1EBE009B582E /* ViewController.m */; };
 		F0C7C6C71BFA1EBE009B582E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C7C6C51BFA1EBE009B582E /* Main.storyboard */; };
 		F0C7C6C91BFA1EBE009B582E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C7C6C81BFA1EBE009B582E /* Assets.xcassets */; };
 		F0C7C6CC1BFA1EBE009B582E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C7C6CA1BFA1EBE009B582E /* LaunchScreen.storyboard */; };
 		F0C7C6D71BFA1EBE009B582E /* UICollectionTagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6D61BFA1EBE009B582E /* UICollectionTagsTests.m */; };
 		F0C7C6E21BFA1EBF009B582E /* UICollectionTagsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6E11BFA1EBF009B582E /* UICollectionTagsUITests.m */; };
+		F0C7C6F11BFA1EEB009B582E /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6F01BFA1EEB009B582E /* MainTableViewController.m */; };
+		F0C7C6F51BFA1F80009B582E /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6F31BFA1F80009B582E /* MainTableViewCell.m */; };
+		F0C7C6F61BFA1F80009B582E /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C7C6F41BFA1F80009B582E /* MainTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		F0C7C6BD1BFA1EBE009B582E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0C7C6BF1BFA1EBE009B582E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0C7C6C01BFA1EBE009B582E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F0C7C6C21BFA1EBE009B582E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F0C7C6C31BFA1EBE009B582E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0C7C6C61BFA1EBE009B582E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0C7C6C81BFA1EBE009B582E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0C7C6CB1BFA1EBE009B582E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,11 @@
 		F0C7C6DD1BFA1EBF009B582E /* UICollectionTagsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionTagsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C7C6E11BFA1EBF009B582E /* UICollectionTagsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionTagsUITests.m; sourceTree = "<group>"; };
 		F0C7C6E31BFA1EBF009B582E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C7C6EF1BFA1EEB009B582E /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		F0C7C6F01BFA1EEB009B582E /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		F0C7C6F21BFA1F80009B582E /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		F0C7C6F31BFA1F80009B582E /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		F0C7C6F41BFA1F80009B582E /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +108,11 @@
 			children = (
 				F0C7C6BF1BFA1EBE009B582E /* AppDelegate.h */,
 				F0C7C6C01BFA1EBE009B582E /* AppDelegate.m */,
-				F0C7C6C21BFA1EBE009B582E /* ViewController.h */,
-				F0C7C6C31BFA1EBE009B582E /* ViewController.m */,
+				F0C7C6EF1BFA1EEB009B582E /* MainTableViewController.h */,
+				F0C7C6F01BFA1EEB009B582E /* MainTableViewController.m */,
+				F0C7C6F21BFA1F80009B582E /* MainTableViewCell.h */,
+				F0C7C6F31BFA1F80009B582E /* MainTableViewCell.m */,
+				F0C7C6F41BFA1F80009B582E /* MainTableViewCell.xib */,
 				F0C7C6C51BFA1EBE009B582E /* Main.storyboard */,
 				F0C7C6C81BFA1EBE009B582E /* Assets.xcassets */,
 				F0C7C6CA1BFA1EBE009B582E /* LaunchScreen.storyboard */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					F0C7C6B81BFA1EBE009B582E = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = S3975P6M98;
 					};
 					F0C7C6D11BFA1EBE009B582E = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -245,6 +254,7 @@
 			files = (
 				F0C7C6CC1BFA1EBE009B582E /* LaunchScreen.storyboard in Resources */,
 				F0C7C6C91BFA1EBE009B582E /* Assets.xcassets in Resources */,
+				F0C7C6F61BFA1F80009B582E /* MainTableViewCell.xib in Resources */,
 				F0C7C6C71BFA1EBE009B582E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C7C6C41BFA1EBE009B582E /* ViewController.m in Sources */,
 				F0C7C6C11BFA1EBE009B582E /* AppDelegate.m in Sources */,
 				F0C7C6BE1BFA1EBE009B582E /* main.m in Sources */,
+				F0C7C6F51BFA1F80009B582E /* MainTableViewCell.m in Sources */,
+				F0C7C6F11BFA1EEB009B582E /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UICollectionTags/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwolf.UICollectionTags;
@@ -424,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UICollectionTags/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiwolf.UICollectionTags;

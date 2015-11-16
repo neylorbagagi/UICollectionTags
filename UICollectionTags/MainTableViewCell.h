@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTableViewCell.h
 //  UICollectionTags
 //
 //  Created by Neylor Bagagi on 11/16/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainTableViewCell : UITableViewCell
 
 @end
-
