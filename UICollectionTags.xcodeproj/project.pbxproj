@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F0B574721BFB6BE50073C5F8 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B574701BFB6BE50073C5F8 /* MainCollectionViewCell.m */; };
 		F0B574731BFB6BE50073C5F8 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B574711BFB6BE50073C5F8 /* MainCollectionViewCell.xib */; };
+		F0B5747B1BFB9F1C0073C5F8 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B5747A1BFB9F1C0073C5F8 /* UICollectionViewLeftAlignedLayout.m */; };
 		F0C7C6BE1BFA1EBE009B582E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6BD1BFA1EBE009B582E /* main.m */; };
 		F0C7C6C11BFA1EBE009B582E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C7C6C01BFA1EBE009B582E /* AppDelegate.m */; };
 		F0C7C6C91BFA1EBE009B582E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C7C6C81BFA1EBE009B582E /* Assets.xcassets */; };
@@ -42,6 +43,8 @@
 		F0B5746F1BFB6BE50073C5F8 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
 		F0B574701BFB6BE50073C5F8 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
 		F0B574711BFB6BE50073C5F8 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		F0B574791BFB9F1C0073C5F8 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		F0B5747A1BFB9F1C0073C5F8 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		F0C7C6B91BFA1EBE009B582E /* UICollectionTags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionTags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C7C6BD1BFA1EBE009B582E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0C7C6BF1BFA1EBE009B582E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 		F0C7C6BC1BFA1EBE009B582E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0B574791BFB9F1C0073C5F8 /* UICollectionViewLeftAlignedLayout.h */,
+				F0B5747A1BFB9F1C0073C5F8 /* UICollectionViewLeftAlignedLayout.m */,
 				F0C7C6BD1BFA1EBE009B582E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -293,6 +298,7 @@
 				F0C7C6BE1BFA1EBE009B582E /* main.m in Sources */,
 				F0B574721BFB6BE50073C5F8 /* MainCollectionViewCell.m in Sources */,
 				F0C7C6FD1BFA3CDD009B582E /* MainTableViewCell.m in Sources */,
+				F0B5747B1BFB9F1C0073C5F8 /* UICollectionViewLeftAlignedLayout.m in Sources */,
 				F0C7C6F11BFA1EEB009B582E /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

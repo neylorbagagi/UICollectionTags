@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UICollectionViewLeftAlignedLayout.h"
 
 @interface MainTableViewCell : UITableViewCell <UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 

@@ -20,6 +20,11 @@
     [_tagCollectionView setDelegate:self];
     [_tagCollectionView setDataSource:self];
     [_tagCollectionView registerNib:[UINib nibWithNibName:@"MainCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:@"tag"];
+    
+    UICollectionViewLeftAlignedLayout *layout = [[UICollectionViewLeftAlignedLayout alloc] init];
+    //UICollectionView *leftAlignedCollectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:layout];
+    [_tagCollectionView setCollectionViewLayout:layout];
+    
 }
  
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -46,6 +51,7 @@
     return collectionCell;
 }
 
+
 #pragma UICollectionViewDelegateFlowLayout
 
 - (CGSize)collectionView:(UICollectionView *)collectionView
@@ -63,6 +69,8 @@
     
     return UIEdgeInsetsMake(0, 0, 3, 3);
 }
+
+
 
 
 @end
