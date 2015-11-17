@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainTableViewCell : UITableViewCell
+@interface MainTableViewCell : UITableViewCell <UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+
+@property (weak, nonatomic) IBOutlet UICollectionView *tagCollectionView;
 
 @end
